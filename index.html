@@ -4,82 +4,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern HTML Email Template</title>
-    <style type="text/css">
-      body {
-        margin: 0;
-        background-color: #cccccc;
-      }
-      table {
-        border-spacing: 0;
-      }
-      td {
-        padding: 0;
-      }
-      img {
-        border: 0;
-      }
-
-      .wrapper {
-        width: 100%;
-        table-layout: fixed;
-      }
-
-      .main {
-        background-color: #fafafa;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 600px;
-        border-spacing: 0;
-        font-family: "outfit";
-      }
-
-      .two-columns {
-        text-align: center;
-        font-size: 48px;
-        box-shadow: 0px 8px 30px -4px rgba(78, 115, 248, 0.02);
-        background-color: #fff;
-        padding: 2rem 0.5rem;
-      }
-
-      .two-columns .column {
-        width: 100%;
-        max-width: 250px;
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      .two-columns-rel {
-        text-align: center;
-      }
-
-      .two-columns-rel .column {
-        max-width: 150px;
-        display: inline-block;
-        vertical-align: middle;
-      }
-      .three-columns {
-        text-align: center;
-      }
-
-      .three-columns .column {
-        width: 100%;
-        max-width: 50px;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-      }
-    </style>
   </head>
-  <body>
-    <center class="wrapper">
-      <table class="main" width="100%">
+  <body style="margin: 0; background-color: #cccccc">
+    <center style="width: 100%; table-layout: fixed">
+      <table
+        width="100%"
+        style="
+          border-spacing: 0;
+          background-color: #fafafa;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 600px;
+          border-spacing: 0;
+          font-family: outfit;
+        "
+        bgcolor="#fafafa"
+      >
         <!-- BANNER IMAGE -->
         <tr>
           <td>
@@ -88,6 +35,7 @@
               alt=""
               width="600"
               style="max-width: 100%; height: 250px; object-fit: cover"
+              height="250"
             />
           </td>
         </tr>
@@ -97,8 +45,29 @@
           <td>
             <table width="100%">
               <tr>
-                <td class="two-columns">
-                  <table class="column">
+                <td
+                  class="two-columns"
+                  style="
+                    text-align: center;
+                    font-size: 48px;
+                    box-shadow: 0px 8px 30px -4px rgba(78, 115, 248, 0.02);
+                    background-color: #fff;
+                    padding: 2rem 0.5rem;
+                  "
+                  align="center"
+                  bgcolor="#fff"
+                >
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 250px;
+                      display: inline-block;
+                      vertical-align: middle;
+                    "
+                    width="100%"
+                    valign="middle"
+                  >
                     <tr>
                       <td>
                         <h1
@@ -115,7 +84,17 @@
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 250px;
+                      display: inline-block;
+                      vertical-align: middle;
+                    "
+                    width="100%"
+                    valign="middle"
+                  >
                     <tr>
                       <td>
                         <img
@@ -135,7 +114,7 @@
 
         <!-- Wish -->
         <tr>
-          <td style="margin: auto; width: 300px; padding-top: 30px">
+          <td style="margin: auto; width: 300px; padding-top: 30px" width="300">
             <p
               style="
                 font-weight: 500;
@@ -153,7 +132,7 @@
         <!-- Onboard -->
 
         <tr>
-          <td style="margin: auto; width: 300px">
+          <td style="margin: auto; width: 300px" width="300">
             <p
               style="
                 font-weight: 500;
@@ -173,7 +152,7 @@
         <!-- Relationship manager -->
         <center>
           <tr>
-            <td style="margin: auto; width: 300px">
+            <td style="margin: auto; width: 300px" width="300">
               <p
                 style="
                   font-weight: 500;
@@ -187,8 +166,20 @@
 
               <table width="70%" style="margin: auto">
                 <tr>
-                  <td class="two-columns-rel">
-                    <table class="column">
+                  <td
+                    class="two-columns-rel"
+                    style="text-align: center"
+                    align="center"
+                  >
+                    <table
+                      class="column"
+                      style="
+                        max-width: 150px;
+                        display: inline-block;
+                        vertical-align: middle;
+                      "
+                      valign="middle"
+                    >
                       <tr>
                         <td>
                           <h3 style="font-size: 14px; text-align: right">
@@ -197,7 +188,15 @@
                         </td>
                       </tr>
                     </table>
-                    <table class="column" style="max-width: 40%">
+                    <table
+                      class="column"
+                      style="
+                        display: inline-block;
+                        vertical-align: middle;
+                        max-width: 40%;
+                      "
+                      valign="middle"
+                    >
                       <tr>
                         <td>
                           <p
@@ -218,8 +217,20 @@
               </table>
               <table width="70%" style="margin: auto">
                 <tr>
-                  <td class="two-columns-rel">
-                    <table class="column">
+                  <td
+                    class="two-columns-rel"
+                    style="text-align: center"
+                    align="center"
+                  >
+                    <table
+                      class="column"
+                      style="
+                        max-width: 150px;
+                        display: inline-block;
+                        vertical-align: middle;
+                      "
+                      valign="middle"
+                    >
                       <tr>
                         <td>
                           <h3 style="font-size: 14px; text-align: right">
@@ -228,7 +239,15 @@
                         </td>
                       </tr>
                     </table>
-                    <table class="column" style="max-width: 40%">
+                    <table
+                      class="column"
+                      style="
+                        display: inline-block;
+                        vertical-align: middle;
+                        max-width: 40%;
+                      "
+                      valign="middle"
+                    >
                       <tr>
                         <td>
                           <a
@@ -249,8 +268,20 @@
               </table>
               <table width="100%" style="margin: auto">
                 <tr>
-                  <td class="two-columns-rel">
-                    <table class="column">
+                  <td
+                    class="two-columns-rel"
+                    style="text-align: center"
+                    align="center"
+                  >
+                    <table
+                      class="column"
+                      style="
+                        max-width: 150px;
+                        display: inline-block;
+                        vertical-align: middle;
+                      "
+                      valign="middle"
+                    >
                       <tr>
                         <td>
                           <h3 style="font-size: 14px; text-align: right">
@@ -259,7 +290,15 @@
                         </td>
                       </tr>
                     </table>
-                    <table class="column">
+                    <table
+                      class="column"
+                      style="
+                        max-width: 150px;
+                        display: inline-block;
+                        vertical-align: middle;
+                      "
+                      valign="middle"
+                    >
                       <tr>
                         <td>
                           <a
@@ -332,11 +371,30 @@
         <!-- Social media -->
 
         <tr>
-          <td style="margin: auto; width: 600px; padding-bottom: 30px">
+          <td
+            style="margin: auto; width: 600px; padding-bottom: 30px"
+            width="600"
+          >
             <table width="100%" style="margin: auto">
               <tr>
-                <td class="three-columns">
-                  <table class="column">
+                <td
+                  class="three-columns"
+                  style="text-align: center"
+                  align="center"
+                >
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 50px;
+                      display: inline-block;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    width="100%"
+                    valign="middle"
+                    align="center"
+                  >
                     <tr>
                       <td>
                         <img
@@ -347,7 +405,19 @@
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 50px;
+                      display: inline-block;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    width="100%"
+                    valign="middle"
+                    align="center"
+                  >
                     <tr>
                       <td>
                         <img
@@ -358,7 +428,19 @@
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 50px;
+                      display: inline-block;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    width="100%"
+                    valign="middle"
+                    align="center"
+                  >
                     <tr>
                       <td>
                         <img
