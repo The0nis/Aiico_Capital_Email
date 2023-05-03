@@ -18,6 +18,7 @@
         margin: 0 auto;
         background-color: white;
         max-width: 785px;
+        color: #21205C;
       }
 
       table {
@@ -32,10 +33,10 @@
         border: 0;
       }
 
-      .wrapper {
+      /* .wrapper {
         width: 100%;
         padding-top: 20px;
-      }
+      } */
 
       .main {
         background-color: white;
@@ -78,12 +79,9 @@
         width: auto;
         margin: 1rem;
       }
-
-      .product-id{
-        color:  #21205C;
-      }
-      .xyz{
-        color:  #21205C;
+      .medium-font{
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
       }
     </style>
   </head>
@@ -118,7 +116,8 @@
                         ><img
                           src="https://res.cloudinary.com/aiico-assets/image/upload/v1682274300/rectangle-top_ojitp0.png"
                           alt="rectangle top"
-                          width="90"
+                          width="350"
+                          height="270"
                         />
                       </a>
                     </td>
@@ -130,14 +129,14 @@
             <!-- Header Section -->
             <tr>
               <td>
-                <table style="width: 100%">
+                <table style="width: 100%; color:#21205C;">
                   <td class="header-column">
-                    <p style="font-weight: bold; font-size: 40px">
+                    <h1 style="font-weight: bold; font-size: 40px">
                       Redemption Alert!
-                    </p>
+                    </h1>
                     <a href="#"></a>Hello    <img src="https://res.cloudinary.com/aiico-capital-limited/image/upload/v1682594019/aiico-invest/waving.png" alt="waving" width="14"/>
                     </a>
-                    <p>Customer <span class="xyz">xyz</span> with Account ID :<span class="product-id"> ########## </span> Created a new <br>subscription, details are contained below</details> </p>
+                    <p>Customer <span style="font-weight: medium;" class="medium-font">xyz</span> with <span class="medium-font">Account ID:##########</span> has initiated a <br/>redemption, details are contained below </p>
                   </td>
                 </table>
               </td>
@@ -151,12 +150,12 @@
                         <td class="two-columns-last">
                         <table class="column">
                           <tr>
-                            <td class="padding">
+                            <td class="padding"  style="padding-bottom: 112px;">
                             <table class="content">
                               <tr>
-                                <td>
-                                  <p style="color: #21205C; font-size: 18px">Transaction ID  <span>  &nbsp; :</span> <span> 12345678</span> </p>
-                                  <p style="color: #21205C; font-size: 18px">Total Amount   <span>  &nbsp; &nbsp; :</span> <span>00000</span></p>
+                                <td  class="medium-font">
+                                  <p style="color: #21205C; font-size: 18px;" >Transaction ID  <span>  &nbsp; :</span> <span> 12345678</span> </p>
+                                  <p style="color: #21205C; font-size: 18px">Total Amount   <span>  &nbsp; &nbsp; :</span> <span>#00000</span></p>
                                   <p style="color: #21205C; font-size: 18px">Number of <br> </b> Units    <span>   &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; :</span> <span>000</span></p>
                                   <p style="color: #21205C; font-size: 18px">Date    <span> &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; :</span> <span>dd/mm/yyyy</span></p>
                                  
@@ -173,27 +172,27 @@
                       </tr>
 
                       <!-- Login Section -->
-                      <tr>
+                      <!-- <tr>
                         <td>
                           <table style="width: 100%">
                             <td class="header-column">
                               <a href="#"> <p> Click to login into your account  </p> </a>
                           </table>
                         </td>
-                      </tr>
+                      </tr> -->
                       <tr>
                         <td style="background-color:#FAFAFA;">
                           <table width ='100%'>
 
                       <!-- About us -->                    
                       <tr>
-                        <td>
+                        <td style="padding-top: 50px;">
                           <table style="width: 100%">
                             <td class="about-column">
                               <p style="font-size: 16px; color: #757592;text-align: center;  font-family: 'Rubik'; line-height: 19px; letter-spacing: 0.05em;
-                              " >12 Churchgate St  |   Victoria Island 106104  |   Lagos, Nigeria</p>
+                              " ><span style="margin-right: 30px;">12 Churchgate St</span>|<span style="margin: 0 30px; ">Victoria Island 106104</span>|<span  style="margin-left: 30px;">Lagos, Nigeria</span></p>
                                <p style="font-size: 16px; color: #2E3192; text-align: center;  font-family: 'Rubik'; line-height: 19px; letter-spacing: 0.05em; margin-top: 2rem;
-                               " > <a style="text-decoration:none" href=""> Privacy </a>  |  <a  style="text-decoration:none" href="" >  Terms and conditions </a>   </p>   
+                               " > <a style="text-decoration:none; margin-right: 50px;" href=""> Privacy </a>|<a  style="text-decoration:none; margin-left: 50px;" href="" >  Terms and conditions </a>   </p>   
                             </td>
                           </table>
                         </td>
@@ -204,11 +203,11 @@
                         <td>
                           <p
                             style="
-                              font-weight: 500;
-                              font-size: 12px;
+                              font-size: 1rem;
                               color: #757592;
                               text-align: center;
-                              font-family: rubik;
+                              font-family: Rubik;
+                              margin: 50px 0 30px 0;
                             "
                           >                         
                             There is so much in store for you, Try the mobile app                          
@@ -219,10 +218,10 @@
                           <p
                             style="
                               font-weight: 500;
-                              font-size: 12px;
+                              font-family: Rubik;
                               color: #757592;
                               text-align: center;
-                              font-size: 20px;
+                              font-size: 16px;
                             "
                           >
                             Stay connected on social media
@@ -251,7 +250,7 @@
                                         <img
                                           src="https://res.cloudinary.com/odizee/image/upload/v1679923274/chinedu/instagram_tvhoul.png"
                                           alt=""
-                                          style="max-width: 20px"
+                                          style="max-width: 48px"
                                         />
                                       </td>
                                     </tr>
@@ -264,7 +263,7 @@
                                         <img
                                           src="https://res.cloudinary.com/odizee/image/upload/v1679923275/chinedu/twitter_pmqmff.png"
                                           alt=""
-                                          style="max-width: 20px"
+                                          style="max-width: 48px"
                                         />
                                       </td>
                                     </tr>
@@ -277,7 +276,7 @@
                                         <img
                                           src="https://res.cloudinary.com/odizee/image/upload/v1679923275/chinedu/whatsapp_txqwfs.png"
                                           alt=""
-                                          style="max-width: 20px"
+                                          style="max-width: 48px"
                                         />
                                       </td>
                                     </tr>
@@ -292,8 +291,13 @@
                         <tr>
                           <td>
                             <table style="width: 100%">
-                              <td class="footer-column">
-                                <p style="font-size: 20px; font-style: italic; text-align: center;"> Aim Higher. Reach Further  <i class="fa-solid fa-play font-size:20px;"></i></p>
+                              <td class="footer-column" style="padding-bottom: 50px;">
+                                <center>
+                                  <img
+                                  src="https://res.cloudinary.com/aiico-assets/image/upload/v1683067133/aim-higher-banner.png_umhhxb.png"
+                                  alt="aim higher banner"
+                                />
+                                </center>
                               </td>
                             </table>
                           </td>
@@ -309,8 +313,8 @@
                             src="https://res.cloudinary.com/aiico-assets/image/upload/v1682274987/rectangle-bottom_c2d6vq.png"
                             alt=""
                             alt="edge design"
-                            width="100"
-                          />
+                            width="250"
+                            height="200"                          />
                         </td>
                       </tr>
                  </table>
